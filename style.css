@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Cerebri Sans', sans-serif;
+}
+
+html{
+    overflow: hidden;
+}
+
+.main-cont{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-cont video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cont{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.345);
+}
+
+.menu-cont{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.392);
+}
+
+.menu-cont img{
+    width: 150px;
+    padding-bottom: 30%;
+}
+
+.menu-cont nav{
+    list-style: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+    z-index: 1;
+    user-select: none;
+    cursor: pointer;
+}
+
+.menu-cont nav li:first-child{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.menu-cont nav li{
+    padding-top: 12%;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-cont nav li:hover{
+    text-shadow: 12px 12px 12px rgb(255, 255, 255);
+    transform: scale(1.1);
+}
+
+.right-cont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ana-sayfa{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.392);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    padding: 7%;
+}
+
+.ana-img img{
+    width: 200px;
+}
+
+.ana-text{
+    margin-top: 5%;
+}
+
+.ana-text p{
+    padding-top: 3%;
+}
